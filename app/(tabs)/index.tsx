@@ -14,7 +14,7 @@ import { useFocusEffect } from 'expo-router';
 import AppButton from '@/components/AppButton';
 import Header from '@/components/Header';
 import { COLORS } from '@/constants/colors';
-import { useAuth } from '@/lib/auth';
+import { useAuth } from '@/lib/auth'
 import { getProfile } from '@/lib/profile';
 
 export default function Index() {
